@@ -58,7 +58,7 @@ export const PROJECTS = [
     image: project3,
     description:
       "An application implemented Online learning platform target teacher, student and parents.",
-    technologies: ["HTML", "CSS", "JavaScript", "PHP"],
+    technologies: ["HTML", "CSS", "JavaScript", "PHP","MySQL"],
   },
   {
     title: "SCM - Supply Chain Management System",
