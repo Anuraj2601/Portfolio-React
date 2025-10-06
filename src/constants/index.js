@@ -2,39 +2,29 @@ import project1 from "../assets/projects/landingCover.png";
 import project2 from "../assets/projects/book.avif";
 import project3 from "../assets/projects/teach.jpg";
 import project4 from "../assets/projects/scm.jpg";
+import codebasys from "../assets/projects/CodeBasys.jpg";
+import Mediwave from "../assets/projects/mediwave.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications.Currently I'm Studying 3rd year undergraduate student in UCSC, I have honed my skills in front-end technologies like React and Tailwind CSS, as well as back-end technologies like Node Js,Express Js,Spring Boot, MySQL, Postman, and Docker. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications.Graduate student in UCSC, I have honed my skills in front-end technologies like React, Vue and Tailwind CSS, as well as back-end technologies like Laravel, Yii,Spring Boot, MySQL, Postman, and Docker. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including React, Tailwind CSS, Spring Boot, MySQL, Postman, and Docker. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    image: codebasys,
+    year: "2025 - 2025",
+    role: "Trainee Associate Software Engineer",
+    company: "Code Basys",
+    description: `Developed and maintained web applications using JavaScript, Vue.js, and Yii. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
+    technologies: ["Vue", "Yii", "Axios", "MySQL"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    image: Mediwave,
+    year: "2024 - 2025",
+    role: "Trainee Software Engineer",
+    company: "Mediwave",
+    description: `Maintained web application using Laravel. Managed databases and implemented data storage solutions using MySQL. Worked closely with Bug fixing & feature implementations.`,
+    technologies: ["Bootstrap", "Laravel", "Postman", "Swagger"],
   },
 ];
 

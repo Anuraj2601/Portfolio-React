@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants"
-import profilepic from "../assets/profile.jpeg"
+import profilepic from "../assets/profile.jpg"
 import { delay } from "framer-motion"
 import { motion } from "framer-motion"
 

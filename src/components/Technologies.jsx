@@ -1,11 +1,12 @@
 import { BiLogoSpringBoot, BiRepeat } from "react-icons/bi"
 import { FaDocker } from "react-icons/fa"
-import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri"
+import { RiReactjsLine, RiTailwindCssFill, RiVuejsLine } from "react-icons/ri"
 import { SiMysql, SiPostman } from "react-icons/si"
 import { FaNodeJs } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 
 import { motion } from "framer-motion"
+import { DiYii } from "react-icons/di";
 
 const iconVariants = (duration) => ({
     initial: {y: -10},
@@ -40,6 +41,14 @@ const Technologies = () => {
             className="rounded-2xl border-4 border-neutral-800 p-4">
                 <RiReactjsLine className="text-7xl text-cyan-400" />
             </motion.div>
+            <motion.div
+                variants={iconVariants(4)}
+                initial="initial"
+                animate="animate"
+                className="rounded-2xl border-4 border-neutral-800 p-4"
+            >
+                <RiVuejsLine className="text-7xl text-[#3fb984]" />
+            </motion.div>
             <motion.div 
              variants={iconVariants(3)}
              initial="initial"
@@ -60,6 +69,13 @@ const Technologies = () => {
              animate="animate"
             className="rounded-2xl border-4 border-neutral-800 p-4">
                 <BiLogoSpringBoot className="text-7xl text-[#6db33f]" />
+            </motion.div>
+            <motion.div 
+             variants={iconVariants(5)}
+             initial="initial"
+             animate="animate"
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+                <DiYii className="text-7xl text-[#247ba0]" />
             </motion.div>
             <motion.div 
              variants={iconVariants(2)}
